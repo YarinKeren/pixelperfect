@@ -33,6 +33,7 @@
 }
 
 .main-header .main-nav li {
+  position: relative;
   font-family: lato regular, sans-serif;
   width: 120px;
   height: 120px;
@@ -48,4 +49,25 @@
   cursor: pointer;
   color: var(--btnActive);
   border-bottom: 4px solid var(--btnActive);
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  top: 120px;
+
+  background-color: #f1f1f1;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
 }

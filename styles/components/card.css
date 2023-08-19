@@ -1,19 +1,14 @@
 .card {
-  /* display: flex; */
   display: grid;
-  /* grid-auto-flow: column; */
   grid-template-columns: repeat(2, 1fr);
   gap: 40px;
   font-family: lato bold, serif;
 }
 
 .card-content {
-  /* grid-column: 2/3; */
-  /* color: var(--clrPrimary-2); */
-}
-.card img {
-  /* max-width: 100%; */
-  /* height: auto; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
 }
 
 .card .card-title {
@@ -21,7 +16,7 @@
   color: var(--clrPrimaryBase);
   text-transform: uppercase;
   font-size: 1.75rem;
-  margin-bottom: 2.07142857;
+  margin-bottom: 2.17142857;
 }
 
 .card .card-text {
