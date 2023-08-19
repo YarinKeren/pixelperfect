@@ -1,0 +1,21 @@
+:root {
+  /* pallete */
+  --clrPrimary1: #292929;
+  --clrPrimaryBase: #4f4e4e;
+  --clrPrimary-1: #58c93a;
+  --clrPrimary-2: #606060;
+  --clrBorder1: #d0d0d0;
+  --btnActive: #58c93a;
+
+  /* layout */
+  /* --card-layout-margin: 0;
+    --card-center-margin: 40px;
+
+    --l: 1060px;
+    --m: 860px;
+    --s: 600px;
+
+    --layout-width: 1fr;
+
+    --layout-padding: 20px; */
+}
